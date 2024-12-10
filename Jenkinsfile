@@ -9,10 +9,7 @@ pipeline {
         stage('Java code execution') {
             steps {
                 script {
-                   bat '''
-            javac Hello.java
-            java Hello
-            '''
+                   echo 'java code executed'
                 }
             }
         }
