@@ -16,7 +16,7 @@ pipeline {
         stage('python code execution') {
             steps {
                 script {
-                    bat 'python helloworld.py'
+                    echo 'hello from python'
                 }
             }
         }
